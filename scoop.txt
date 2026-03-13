@@ -1,0 +1,8 @@
+Open powershell and run this command for installation of scoop.
+
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
+
+--
+Installed. Run this command in powershell
+scoop install postgrest

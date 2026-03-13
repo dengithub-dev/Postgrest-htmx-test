@@ -1,0 +1,1 @@
+.\devtunnel host -p 3000 --allow-anonymous
